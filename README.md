@@ -1,6 +1,11 @@
 
 # project56
-project of group 
+project of group flats
+
+Niels van Schooten
+Björn Valken
+Ashwen Alakhramsing
+Martijn Dolders
 
 
 ### Issue tracker:

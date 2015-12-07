@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8" name="design-properties" content="{&quot;RULERS_VISIBLE&quot;:true,&quot;GUIDELINES_VISIBLE&quot;:false,&quot;SNAP_TO_OBJECTS&quot;:true,&quot;SNAP_TO_GRID&quot;:true,&quot;SNAPPING_DISTANCE&quot;:10,&quot;JAVA_SOURCES_ROOT&quot;:&quot;src&quot;,&quot;THEME&quot;:&quot;citygisproject&quot;}">
+ </head> 
+ <body> 
+  <vaadin-horizontal-layout style-name="valo-menu-responsive" responsive="true" id="responsive-application-template" size-full="true"> 
+   <vaadin-css-layout style-name="valo-menu"> 
+    <vaadin-css-layout style-name="valo-menu-part"> 
+     <vaadin-horizontal-layout style-name="valo-menu-title" width-full="true" _id="menuTitle"> 
+      <vaadin-label size-auto="true" _id="menuTitleLabel" :middle="" :expand="">
+        City 
+       <strong>GIS</strong> 
+      </vaadin-label> 
+     </vaadin-horizontal-layout> 
+     <vaadin-button icon="fonticon://FontAwesome/f03a" style-name="primary small valo-menu-toggle" plain-text="" _id="menuToggle">
+       Menu 
+     </vaadin-button> 
+     <vaadin-css-layout style-name="valo-menuitems" _id="menuItems"> 
+      <vaadin-button icon="fonticon://FontAwesome/f015" primary-style-name="valo-menu-item" width-full="true" plain-text="" _id="homeButton">
+        Home 
+      </vaadin-button> 
+      <vaadin-button icon="fonticon://FontAwesome/f1b9" primary-style-name="valo-menu-item" _id="carparkButton">
+        Carpark 
+      </vaadin-button> 
+      <vaadin-button icon="fonticon://FontAwesome/f044" primary-style-name="valo-menu-item" _id="citygisButton">
+        CityGIS 
+       <span class="valo-menu-badge">7</span> 
+      </vaadin-button> 
+      <vaadin-button icon="fonticon://FontAwesome/f1c0" primary-style-name="valo-menu-item" _id="dataButton">
+        Data 
+      </vaadin-button> 
+      <vaadin-button icon="fonticon://FontAwesome/f08b" primary-style-name="valo-menu-item" plain-text="" _id="logoutButton">
+        Logout 
+      </vaadin-button> 
+     </vaadin-css-layout> 
+    </vaadin-css-layout> 
+   </vaadin-css-layout> 
+   <vaadin-vertical-layout spacing="true" size-full="true" _id="content" :expand=""> 
+    <vaadin-horizontal-layout style-name="main-header" width-full="true" height="98px" margin="true"> 
+     <vaadin-label style-name="main-header-label" size-auto="true" plain-text="" _id="headerLabel" :center="">
+       Label 
+     </vaadin-label> 
+    </vaadin-horizontal-layout> 
+    <vaadin-panel style-name="borderless" size-full="true" :expand=""> 
+     <vaadin-vertical-layout _id="messageList"></vaadin-vertical-layout> 
+    </vaadin-panel> 
+   </vaadin-vertical-layout> 
+  </vaadin-horizontal-layout>  
+ </body>
+</html>
